@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_three_order_bezier"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.picasso.customview.bezier.ui.ThreeOrderBezierActivity">
+
+    <com.picasso.customview.bezier.view.ThreeOrderBezier
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
