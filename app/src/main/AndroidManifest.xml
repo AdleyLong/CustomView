@@ -26,7 +26,12 @@
             android:label="@string/clipboard" />
         <activity
             android:name=".bezier.ui.Clean360Activity"
-            android:label="@string/clean_360"></activity>
+            android:label="@string/clean_360" />
+        <activity
+            android:name=".gradient.ui.FlickerTextActivity"
+            android:label="@string/flicker_text" />
+        <activity android:name=".gradient.ui.VolumeActivity"
+            android:label="@string/volume_bar"/>
     </application>
 
 </manifest>

@@ -18,24 +18,47 @@
             android:text="Bezier系列"/>
         <Button
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="@dimen/button_height"
             android:text="@string/second_bezier"
             android:onClick="secondOrder"/>
         <Button
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="@dimen/button_height"
             android:text="@string/three_bezier"
             android:onClick="threeOrder"/>
         <Button
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="@dimen/button_height"
             android:text="@string/clipboard"
             android:onClick="slip"/>
         <Button
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="@dimen/button_height"
             android:text="@string/clean_360"
             android:onClick="clean360"/>
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gradient"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/flicker_text"
+            android:onClick="flickerText"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/volume_bar"
+            android:onClick="volumeBar"/>
+    </LinearLayout>
 </LinearLayout>

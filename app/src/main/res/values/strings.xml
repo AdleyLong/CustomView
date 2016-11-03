@@ -4,4 +4,7 @@
     <string name="three_bezier">三阶贝塞尔曲线</string>
     <string name="clipboard">画板</string>
     <string name="clean_360">360清除动画</string>
+    <string name="gradient">渐变渲染器系列</string>
+    <string name="flicker_text">闪动文字</string>
+    <string name="volume_bar">动态音频条</string>
 </resources>

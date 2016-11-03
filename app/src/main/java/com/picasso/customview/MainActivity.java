@@ -9,6 +9,8 @@ import com.picasso.customview.bezier.ui.Clean360Activity;
 import com.picasso.customview.bezier.ui.SecondOrderBezierActivity;
 import com.picasso.customview.bezier.ui.SlipBezierActivity;
 import com.picasso.customview.bezier.ui.ThreeOrderBezierActivity;
+import com.picasso.customview.gradient.ui.FlickerTextActivity;
+import com.picasso.customview.gradient.ui.VolumeActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,5 +37,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void clean360(View view){
         startActivity(new Intent(MainActivity.this, Clean360Activity.class));
+    }
+
+    public void flickerText(View view) {
+        startActivity(new Intent(MainActivity.this, FlickerTextActivity.class));
+    }
+
+    public void volumeBar(View view) {
+        startActivity(new Intent(MainActivity.this, VolumeActivity.class));
     }
 }
