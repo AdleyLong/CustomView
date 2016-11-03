@@ -29,4 +29,4 @@ path.moveTo(200,200);
 mPath.cubicTo(100, 100, 200, 200, 300, 300);
 ```
 
-二次贝赛尔曲线根据贝赛尔曲线起点，终点和线上的点求控制点
+贝赛尔曲线公式请参考维基百科：https://en.wikipedia.org/wiki/B%C3%A9zier_curve
