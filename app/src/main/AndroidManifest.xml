@@ -30,8 +30,13 @@
         <activity
             android:name=".gradient.ui.FlickerTextActivity"
             android:label="@string/flicker_text" />
-        <activity android:name=".gradient.ui.VolumeActivity"
-            android:label="@string/volume_bar"/>
+        <activity
+            android:name=".gradient.ui.VolumeActivity"
+            android:label="@string/volume_bar" />
+        <activity
+            android:name=".gradient.ui.ReflectActivity"
+            android:label="@string/reflect_view" />
+        <activity android:name=".xfermode.ui.ScratchCardActivity"/>
     </application>
 
 </manifest>

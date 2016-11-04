@@ -10,7 +10,9 @@ import com.picasso.customview.bezier.ui.SecondOrderBezierActivity;
 import com.picasso.customview.bezier.ui.SlipBezierActivity;
 import com.picasso.customview.bezier.ui.ThreeOrderBezierActivity;
 import com.picasso.customview.gradient.ui.FlickerTextActivity;
+import com.picasso.customview.gradient.ui.ReflectActivity;
 import com.picasso.customview.gradient.ui.VolumeActivity;
+import com.picasso.customview.xfermode.ui.ScratchCardActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,6 +41,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, Clean360Activity.class));
     }
 
+    /**
+     * 渐变渲染器
+     */
     public void flickerText(View view) {
         startActivity(new Intent(MainActivity.this, FlickerTextActivity.class));
     }
@@ -46,4 +51,18 @@ public class MainActivity extends AppCompatActivity {
     public void volumeBar(View view) {
         startActivity(new Intent(MainActivity.this, VolumeActivity.class));
     }
+
+    public void reflectView(View view) {
+        startActivity(new Intent(MainActivity.this, ReflectActivity.class));
+    }
+
+
+
+    /**
+     * PorterDuffXfermode
+     */
+    public void scratchCard(View view) {
+        startActivity(new Intent(MainActivity.this, ScratchCardActivity.class));
+    }
+
 }

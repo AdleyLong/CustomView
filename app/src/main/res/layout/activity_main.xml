@@ -60,5 +60,28 @@
             android:layout_height="@dimen/button_height"
             android:text="@string/volume_bar"
             android:onClick="volumeBar"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/reflect_view"
+            android:onClick="reflectView"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PorterDuffXfermode"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="刮刮卡"
+            android:onClick="scratchCard"/>
     </LinearLayout>
 </LinearLayout>

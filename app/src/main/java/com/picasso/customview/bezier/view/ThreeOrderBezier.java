@@ -86,7 +86,7 @@ public class ThreeOrderBezier extends View {
         canvas.drawText("控制点2", mAuxiliaryTwoX, mAuxiliaryTwoY, mPaintAuxiliaryText);
         canvas.drawText("起始点", mStartPointX, mStartPointY, mPaintAuxiliaryText);
         canvas.drawText("终止点", mEndPointX, mEndPointY, mPaintAuxiliaryText);
-//        // 辅助线
+        // 辅助线
         canvas.drawLine(mStartPointX, mStartPointY, mAuxiliaryOneX, mAuxiliaryOneY, mPaintAuxiliary);
         canvas.drawLine(mEndPointX, mEndPointY, mAuxiliaryTwoX, mAuxiliaryTwoY, mPaintAuxiliary);
         canvas.drawLine(mAuxiliaryOneX, mAuxiliaryOneY, mAuxiliaryTwoX, mAuxiliaryTwoY, mPaintAuxiliary);
