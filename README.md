@@ -58,7 +58,7 @@ mPath.cubicTo(100, 100, 200, 200, 300, 300);
 4、倒影实现参考博客 http://blog.csdn.net/picasso_l/article/details/49814905
 
 
-#xfermode系列
+#3、xfermode系列
 ##动画演示
 ![刮刮卡](https://github.com/AdleyLong/CustomView/blob/master/pic/xfermode.gif)
 
