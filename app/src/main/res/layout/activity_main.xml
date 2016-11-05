@@ -1,87 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="30dp"
-    tools:context="com.picasso.customview.MainActivity">
+    android:layout_height="match_parent">
 
     <LinearLayout
+        android:id="@+id/activity_main"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bezier系列"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/button_height"
-            android:text="@string/second_bezier"
-            android:onClick="secondOrder"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/button_height"
-            android:text="@string/three_bezier"
-            android:onClick="threeOrder"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/button_height"
-            android:text="@string/clipboard"
-            android:onClick="slip"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/button_height"
-            android:text="@string/clean_360"
-            android:onClick="clean360"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginTop="20dp">
+        android:padding="30dp"
+        tools:context="com.picasso.customview.MainActivity">
 
-        <TextView
-            android:layout_width="wrap_content"
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/gradient"/>
+            android:orientation="vertical">
 
-        <Button
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bezier系列" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:onClick="secondOrder"
+                android:text="@string/second_bezier" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:onClick="threeOrder"
+                android:text="@string/three_bezier" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:onClick="slip"
+                android:text="@string/clipboard" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:onClick="clean360"
+                android:text="@string/clean_360" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/button_height"
-            android:text="@string/flicker_text"
-            android:onClick="flickerText"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/button_height"
-            android:text="@string/volume_bar"
-            android:onClick="volumeBar"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/button_height"
-            android:text="@string/reflect_view"
-            android:onClick="reflectView"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="20dp">
-        <TextView
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PorterDuffXfermode"/>
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
 
-        <Button
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gradient" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:onClick="flickerText"
+                android:text="@string/flicker_text" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:onClick="volumeBar"
+                android:text="@string/volume_bar" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:onClick="reflectView"
+                android:text="@string/reflect_view" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/button_height"
-            android:text="刮刮卡"
-            android:onClick="scratchCard"/>
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PorterDuffXfermode" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:onClick="scratchCard"
+                android:text="刮刮卡" />
+        </LinearLayout>
     </LinearLayout>
-</LinearLayout>
+</ScrollView>
