@@ -58,3 +58,12 @@ mPath.cubicTo(100, 100, 200, 200, 300, 300);
 4、倒影实现参考博客 http://blog.csdn.net/picasso_l/article/details/49814905
 
 
+#xfermode系列
+##动画演示
+![刮刮卡](https://github.com/AdleyLong/CustomView/blob/master/pic/xfermode.gif)
+
+##知识点
+PorterDuffXfermode设置的是两个图层交集区域的显示方式，dst是先画的图形，而src是后画的图形。 
+当然，这些模式也不是经常使用的，用的最多的是，使用一张图片作为另一张图片的遮罩层，通过控制遮罩层的图形，来控制下面被遮罩图形的显示效果。其中最常用的就是通过DST_IN、SRC_IN模式来实现。 
+
+![](https://github.com/AdleyLong/CustomView/blob/master/pic/xfermode.png)
